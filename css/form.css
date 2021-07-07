@@ -1,0 +1,261 @@
+/* 基本设置 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small,strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;}
+body { 
+    background-color: #fff;
+    /* background-color:#f1efe3; */
+    line-height: 1;
+}
+
+body { 
+    font:12px/1 "\u5b8b\u4f53", Tahoma,  sans-serif; 
+    color:#333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+}
+
+a { color:#333; 
+    text-decoration:none;
+}
+
+
+
+a:hover { 
+    color:#cd0200;
+}
+
+.wrapper .inner { 
+    width:1000px; 
+    margin:0 auto;
+}
+
+.wrapper {
+
+    width: 100%;
+    margin: 0 auto ;
+}
+
+/* 页眉区 */
+header {
+    height: 110px;
+    background-image: url(../img/森林字.jpg);
+    background-size:1535px 110px;
+    width: 100%;
+}
+
+/* 菜单栏 */
+#nav {
+    background-color: #eee8d7;
+    height: 42px;
+}
+
+#nav .nav_name {
+    height: 42px;
+}
+
+#nav .nav_name a{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(61, 61, 61);
+    font-family: "Microsoft Yahei";
+
+}
+
+#nav .nav_name .item-name {
+    padding: 0 68px;
+    height: 42px;
+    line-height: 41px;
+    display: inline-block;
+}
+
+#nav .nav_name  .item-name:hover{ 
+    background:#b1d9f3;
+}
+
+/* 公告 */
+#container-1 .hero {
+
+    margin: 20px;
+    padding: 45px 0;
+    border-bottom: 2px solid #e33b3d;
+}
+
+.hero .text {
+    line-height: 1;
+    font-size: 20px;
+    text-indent: 2em;
+}
+
+/* 表单 */
+ul {
+    list-style: none;
+}
+
+ul.answer-list {
+    margin-top: 10px;
+
+}
+
+table {
+    margin-left: 20px;
+}
+
+.answer-item {
+    text-align: left;
+    font-size: 12px;
+    margin: 0% 0% 0.2em 0.2em;
+}
+
+td.question {
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: 900;
+    /* background-color: #d3f77f; */
+    /* text-align: left; */
+    padding: 6px 10px;
+}
+
+td.question .q {
+    color: crimson;
+}
+
+td.answer-1 {
+    padding: 11px 24px 16px 37px;
+    text-align: left;
+}
+
+.B-1 {
+    width: 960px;
+    /* border: 3px solid #cce8ff; */
+    margin-bottom: 20px;
+}
+
+.B-2 {
+    width: 960px;
+    /* border: 3px solid #cce8ff; */
+    margin-bottom: 20px;
+}
+
+.A-1 {
+    width: 960px;
+    /* border: 3px solid #cce8ff; */
+    margin-bottom: 20px;
+}
+
+.A-2 {
+    width: 960px;
+    /* border: 3px solid #cce8ff; */
+    margin-bottom: 20px;
+}
+
+.A-3 {
+    width: 960px;
+    /* border: 3px solid #cce8ff; */
+    margin-bottom: 20px;
+}
+
+textarea {
+    border-spacing: 0;
+    padding: 0;
+    margin: 10px 10px 10px 13.325px;
+    width: 297px;
+    height: 84px;
+}
+
+.B-1 .name {
+    margin-left: 35px;
+    vertical-align: middle;
+    display: table-row;
+}
+
+.B-1 .number {
+    margin-left: 23px;
+    vertical-align: middle;
+    display: table-row;
+}
+
+.B-1 .age {
+    margin-left: 35px;
+    vertical-align: middle;
+    display: table-row;
+}
+
+.B-1 .email {
+    margin-left: 11px;
+    vertical-align: middle;
+    display: table-row;
+}
+
+.question-2 {
+    text-align: center;
+}
+
+.ui-button {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background: #a3c3ff;
+    padding: 0 36px;
+    height: 44px;
+    line-height: 54px;
+    box-shadow: 0 10px 20px 0 rgb(0 60 172 / 35%);
+    border-radius: 4px;
+    letter-spacing: 2px;
+    cursor: pointer;
+} 
+
+/* 页面的图片 */
+.pic1 {
+    position: absolute;
+    left: 800px;
+    top: 390px;
+
+}
+
+.pic2 {
+    position: absolute;
+    left: 1100px;
+    top: 390px;
+    width:400px;
+
+}
+
+
+/* 页脚 */
+.footer {
+    background: rgb(226, 226, 226);
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+
+#copyright-note {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    color: #7e7d7d;
+}
+
+.footer .zzh {
+    padding-top: 24px;
+    padding-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.footer .to-top {
+    float: right;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0274BE;
+}
+
+.row {
+    width: 95%;
+}
+
+.to {
+    margin-left: 55px;
+}

@@ -1,0 +1,245 @@
+/* 基本设置 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small,strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;}
+body {
+    background-color: #fff; 
+    /* background-color:#f1efe3; */
+    line-height: 1;
+}
+
+body,p { 
+    font:12px/1 "\u5b8b\u4f53", Tahoma,  sans-serif; 
+    color:#333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+}
+
+a { color:#333; 
+    text-decoration:none;
+}
+
+a:hover { 
+    color:#cd0200;
+}
+
+.wrapper .inner { 
+    width:1000px; 
+    margin:0 auto;
+}
+
+.wrapper {
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 页眉区 */
+header {
+    height: 110px;
+    background-image: url(../img/森林字.jpg);
+    background-size:1535px 110px;
+    width: 100%;
+}
+
+/* 菜单栏 */
+#nav {
+    background-color: #eee8d7;
+    height: 42px;
+}
+
+#nav .nav_name {
+    height: 42px;
+}
+
+#nav .nav_name a{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(61, 61, 61);
+    font-family: "Microsoft Yahei";
+
+}
+
+#nav .nav_name .item-name {
+    padding: 0 68px;
+    height: 42px;
+    line-height: 41px;
+    display: inline-block;
+}
+
+#nav .nav_name  .item-name:hover{ 
+    background:#b1d9f3;
+}
+
+
+
+/* 主体区域1——网站介绍 */
+#container-1 {
+    margin-top: 20px;
+
+}
+
+#container-1 .introduction {
+    padding: 40px 0 46px;
+    background-color: #fff;
+    box-shadow: #e6e6e6 0px 0px 15px;
+}
+
+.int-1 {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.int-1 p {
+    height: 52px;
+    line-height: 52px;
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0064b4;
+}
+
+.int-1 .jj {
+    height: 41px;
+    background: url(../img/ls_tit.png) center bottom no-repeat;
+    line-height: 30px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+}
+
+.int-2  {
+    margin: 20px;
+}
+
+.int-2 .tt-1 {
+    line-height: 30px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+
+/* 主体区域2 随笔记录区域 */
+#container-2 .essay {
+    margin-top: 40px;
+    padding: 40px 0 46px;
+    background-color: #fff;
+    box-shadow: #e6e6e6 0px 0px 15px;
+}
+
+#container-2 .essay .e-left {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 0;
+    height: 250px;
+    width: 450px;
+    box-shadow: #e6e6e6 0px 0px 15px;
+    cursor: pointer;
+}
+
+.e-left:hover {
+    background: rgb(239, 243, 241);
+}
+
+.e-right:hover {
+    background: rgb(239, 243, 241);
+}
+
+#container-2 .essay .e-right {
+    margin-top: 30px;
+    margin-left: 530px;
+    height: 250px;
+    width: 450px;
+    box-shadow: #e6e6e6 0px 0px 15px;
+    cursor: pointer;
+}
+
+/* 随笔区域的文字设置 */
+.text {
+    float: right;
+    width: 350px ;
+    margin: 20px 30px 10px 10px;
+} 
+
+.tit {
+    margin-bottom: 10px;
+}
+
+.tit .tit-tt {
+    color: #333;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 900;
+}
+
+/* 时间栏位置 */
+.time {
+    margin: 0 0 20px 0;
+    line-height: 1;
+}
+
+/* 时间字体设置 */
+.time .time-tt {
+    color: #999;
+    font-weight: 800;
+    font-size: 110%;
+}
+
+
+.s-text .tt-1 {
+    color: #666;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 100%;
+}
+/* 数字位置 */
+.number {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* 数字格式大小 */
+.sz {
+    font-size: 30px;
+    color:rgb(28, 67, 139);
+    line-height: 0.8;
+    font-weight: 900;
+}
+
+/* 页脚区 */
+.footer {
+    background: rgb(226, 226, 226);
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+
+#copyright-note {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    color: #7e7d7d;
+}
+
+.footer .zzh {
+    padding-top: 24px;
+    padding-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.footer .to-top {
+    float: right;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0274BE;
+}
+
+.row {
+    width: 95%;
+}
+
+.to {
+    margin-left: 55px;
+}

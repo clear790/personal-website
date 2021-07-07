@@ -1,0 +1,264 @@
+/* 基本设置 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small,strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;}
+body { 
+    background-color: #fff;
+    /* background-color:#f1efe3; */
+    line-height: 1;
+}
+
+body { 
+    font:12px/1 "\u5b8b\u4f53", Tahoma,  sans-serif; 
+    color:#333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+}
+
+a { color:#333; 
+    text-decoration:none;
+}
+
+
+
+a:hover { 
+    color:#cd0200;
+}
+
+.wrapper .inner { 
+    width:1000px; 
+    margin:0 auto;
+}
+
+.wrapper {
+
+    width: 100%;
+    margin: 0 auto ;
+}
+
+/* 页眉区 */
+header {
+    height: 110px;
+    background-image: url(../img/森林字.jpg);
+    background-size:1535px 110px;
+    width: 100%;
+}
+
+/* 菜单栏 */
+#nav {
+    background-color: #eee8d7;
+    height: 42px;
+}
+
+#nav .nav_name {
+    height: 42px;
+}
+
+#nav .nav_name a{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(61, 61, 61);
+    font-family: "Microsoft Yahei";
+
+}
+
+#nav .nav_name .item-name {
+    padding: 0 68px;
+    height: 42px;
+    line-height: 41px;
+    display: inline-block;
+}
+
+#nav .nav_name  .item-name:hover{ 
+    background:#b1d9f3;
+}
+
+
+/* 表格 */
+
+#form {
+    margin-top: 20px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table {
+    table-layout:fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-indent: initial;
+
+    line-height: 2.0;
+    font-size: 14px;
+    color: #555;
+}
+
+.title {
+    
+    background-color: rgb(227, 239, 243);
+}
+
+
+.td {
+    border: solid rgb(175, 180, 180);
+    border-width: 1px 1px 1px 1px;
+    padding: 2px 10px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    width: 22%;
+    height: 32px;
+    background-color:#f0f7f7;
+
+}
+
+.table1 {
+    width: 800px;
+}
+
+.line {
+    height: 30px;
+}
+
+/* 文字 */
+.text {
+    margin-left: 430px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.s-text {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/* 学校介绍 */
+.s-1 {
+    width:750px; 
+    height:272px; 
+    float:left; 
+    background-color: #fff;
+    /* background-color:#cfb835;  */
+    margin-left:30px;
+    overflow:hidden;
+    box-shadow: #e6e6e6 0px 0px 15px;
+}
+
+.s-title-1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.s-2 {
+    width:750px; 
+    height:267px; 
+    float:left; 
+    background-color: #fff;
+    /* background-color:#cfb835;  */
+    margin-left: 250px;
+    overflow:hidden;
+    box-shadow: #e6e6e6 0px 0px 15px;
+}
+
+.s-title-2{
+    margin-top: 300px;
+    margin-left: 250px;
+}
+
+.s-3 {
+    width:750px; 
+    height:283px; 
+    float:left; 
+    background-color: #fff;
+    /* background-color:#cfb835;  */
+    margin-left: 450px;
+    overflow:hidden;
+    box-shadow: #e6e6e6 0px 0px 15px;
+}
+
+.s-title-3{
+    margin-top: 300px;
+    margin-left: 450px;
+}
+
+.s-4 {
+    width:750px; 
+    height:250px; 
+    float:right; 
+    background-color: #fff;
+    /* background-color:#cfb835;  */
+    margin-right: 30px;
+    margin-bottom: 30px;
+    overflow:hidden;
+    box-shadow: #e6e6e6 0px 0px 15px;
+}
+
+.s-title-4{
+    margin-top: 320px;
+    margin-left: 735px;
+    
+}
+
+
+.pic {
+    float:left; 
+    width: 400px;
+}
+
+/* 页脚 */
+.footer {
+    background: rgb(226, 226, 226);
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+
+#copyright-note {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    color: #7e7d7d;
+}
+
+.footer .zzh {
+    padding-top: 24px;
+    padding-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.footer .to-top {
+    float: right;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0274BE;
+}
+
+.row {
+    width: 95%;
+}
+
+.to {
+    margin-left: 55px;
+}
+
+.b1 {
+    width: 32%;
+    position: absolute;
+    left: 960px;
+    top: 470px;
+}
+
+.b2 {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 1200px;
+}
